@@ -33,7 +33,7 @@ This course will cover a brief history of Warframe and it genre, Fundamental Mec
 ## Tentative Schedule
 | Week  |   Lecture   |  Video   | Additional Material |
 | ----- | --------- | -------- | -------- |
-| 1  | [History of Warframe and it genre]()  | [Video]() ||
+| 1  | [History of Warframe and it genre](https://www.canva.com/design/DAGw_Yst7wo/qWLP0Vn1gTO97gTeLimuQ/viewutm_content=DAGw_Yst7wo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h51b2d3c969)  | [Video]() ||
 | 2  | [TBA]()                               | [Video]() ||
 | 3  | [TBA]()                                | [Video]() ||
 | 4  | [TBA]()                                | [Video]() || 
