@@ -14,7 +14,7 @@ Classroom:
 - SC3-207
 
 ## Course Learning Outcomes (CLOs)
-- Understand Warframe's evolution within the looter shooter genre
+- Understand Warframe's evolution within the genre 
 - Being able to utilizing the modding system effectively
 - Select and optimize Warframes for specific missions and roles
 - Understanding progession path for new player
