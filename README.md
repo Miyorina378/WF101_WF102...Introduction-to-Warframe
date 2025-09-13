@@ -46,7 +46,7 @@ This course will cover a brief history of Warframe and it genre, Fundamental Mec
 | 11 | [TBA]                                  | [Video]  ||
 | 12 | [TBA]                                  | [Video]  ||
 | 13 | [TBA]                                  | [Video] ||
-| 14 | [TBA]                                  | [Video] ||
+| 14 | [A Critique on Warframe]                                  | [Video] ||
 
 ## Grading Scale
 
