@@ -50,7 +50,8 @@ This course will cover a brief history of Warframe and it genre, Fundamental Mec
 
 ## Special Lecture
 |   Lecture   |  Video   |
-| [Case Study for maintaining game feat. Warframe]() | [Video] |
+| ----- | --------- |
+| [Case Study for Maintaining Live Service Game feat. Warframe](https://github.com/Miyorina378/WF101_WF102...Introduction-to-Warframe/blob/main/GI376%20-%20Damage%20Attenuation.pdf) | [Video] |
 
 ## Grading Scale
 
