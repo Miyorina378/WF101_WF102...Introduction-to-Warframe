@@ -1,4 +1,4 @@
-# WF101/WF102: Introduction to Warframe and Its Fundamentals
+# WF101/WF102: Introduction to Warframe and Its Fundamentals - Spring 2025
 
 ## Course Instructor
 
@@ -48,15 +48,19 @@ This course will cover a brief history of Warframe and it genre, Fundamental Mec
 | 13 | [TBA]                                  | [Video] ||
 | 14 | [A Critique on Warframe]                                  | [Video] ||
 
+## Special Lecture
+|   Lecture   |  Video   |
+| [Case Study for maintaining game feat. Warframe]() | [Video] |
+
 ## Grading Scale
 
 | Grade | Percentage |  
 |-------|------------|
-| A  |  >= 90 |
-| B+ |  [85, 90) | 
-| B  |  [80, 85) | 
-| C+ |  [75, 80) |
-| C  |  [70, 75) |
-| D+ |  [65, 70) |
-| D  |  [60, 65) |
-| F  |  <60| 
+| A  |  >= 80 |
+| B+ |  [75, 80) | 
+| B  |  [70, 75) | 
+| C+ |  [65, 70) |
+| C  |  [60, 65) |
+| D+ |  [55, 60) |
+| D  |  [50, 55) |
+| F  |  <50| 
