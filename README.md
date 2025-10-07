@@ -2,7 +2,7 @@
 
 ## Course Instructor
 
-Name: Miyorina378
+Name: Wongsathorn Derochanawong
 
 Email: darendianana@gmail.com
 
@@ -51,7 +51,7 @@ This course will cover a brief history of Warframe and it genre, Fundamental Mec
 ## Special Lecture
 |   Lecture   |  Video   |
 | ----- | --------- |
-| [Case Study for Maintaining Live Service Game](https://github.com/Miyorina378/WF101_WF102...Introduction-to-Warframe/blob/main/GI376%20-%20Damage%20Attenuation.pdf) | [Video] |
+| [Case Study for Maintaining Live Service Game](https://github.com/Miyorina378/WF101_WF102...Introduction-to-Warframe/blob/main/GI376%20-%20Damage%20Attenuation.pdf) | [Video](https://youtu.be/CGSgf2AmIs0) |
 
 ## Grading Scale
 
