@@ -34,19 +34,19 @@ This course will cover a brief history of Warframe and it genre, Fundamental Mec
 | Week  |   Lecture   |  Video   | Additional Material |
 | ----- | --------- | -------- | -------- |
 | 1  | [History of Warframe and it genre](https://www.canva.com/design/DAGw_Yst7wo/qWLP0Vn1g-TO97gTeLimuQ/view?utm_content=DAGw_Yst7wo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h51b2d3c969)  | [Video]() ||
-| 2  | [TBA]()                               | [Video]() ||
-| 3  | [TBA]()                                | [Video]() ||
-| 4  | [TBA]()                                | [Video]() || 
-| 5  | [TBA]()                                | [Video]() ||
-| 6  | [TBA]                                  | [Video]() ||
-| 7  | [TBA]                                  | [Video]() ||
-| 8  | [TBA]                                   | [Video] ||
-| 9  | [TBA]                                   | [Video] ||
-| 10 | [TBA]                                  | [Video] ||
-| 11 | [TBA]                                  | [Video]  ||
-| 12 | [TBA]                                  | [Video]  ||
-| 13 | [TBA]                                  | [Video] ||
-| 14 | [A Critique on Warframe]                                  | [Video] ||
+| 2  | [Welcome to the new apartment - Orbiter]()                               | [Video]() ||
+| 3  | [Player Progression]()                                | [Video]() ||
+| 4  | [Basic Weapon Modding System (Elemental Reaction)]()                                | [Video]() || 
+| 5  | [Principle of Modding]()                                | [Video]() ||
+| 6  | [Deconstructing the Enemy]()                                  | [Video]() ||
+| 7  | [Economy of City Hub]()                               | [Video]() ||
+| 8  | [Trading in Warframe (feat. Warframe Market)]()                                | [Video] ||
+| 9  | [Hunter and Gathering Resources]()                                  | [Video] ||
+| 10 | [The Brief Story of Warframe(Spoiler Alert!!)]                                  | [Video] ||
+| 11 | [Deep Dive of Adversary Weapon]                                  | [Video]  ||
+| 12 | [Researching topic by community resources]()                                | [Video]  ||
+| 13 | [Preparation for Endgame]()                                 | [Video] ||
+| 14 | [A Critique on Warframe]()                              | [Video] ||
 
 ## Special Lecture
 |   Lecture   |  Video   |
