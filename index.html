@@ -11,12 +11,80 @@
             box-sizing: border-box;
         }
 
+        /* Custom Warframe Themed Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0a0e27; /* Dark space background */
+            border-left: 1px solid rgba(52, 152, 219, 0.1);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #3498db; /* Warframe Energy Blue */
+            border-radius: 5px;
+            border: 2px solid #0a0e27; /* Creates padding effect */
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #5dade2; /* Lighter blue on hover */
+            box-shadow: 0 0 10px #3498db; /* Glow effect */
+        }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0f1419 100%);
+            /* Removed static gradient background to allow images to show */
             color: #e0e6ed;
             line-height: 1.6;
             min-height: 100vh;
+            position: relative;
+        }
+
+        /* Background Image Container */
+        .bg-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+            background-color: #0a0e27; /* Fallback color */
+        }
+
+        .bg-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            transition: opacity 0.5s ease-out; /* Smooth transition */
+        }
+
+        /* First image is visible by default */
+        .bg-image:first-child {
+            opacity: 1;
+        }
+
+        /* Setting specific images */
+        .bg-1 { background-image: url('images/warframe1.jpg'); }
+        .bg-2 { background-image: url('images/warframe2.jpg'); }
+        .bg-3 { background-image: url('images/warframe3.webp'); }
+
+        /* Overlay to ensure text remains readable against images */
+        .bg-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(10, 14, 39, 0.85) 0%, rgba(26, 31, 58, 0.7) 100%);
+            z-index: -1;
+            pointer-events: none;
         }
 
         .container {
@@ -26,13 +94,14 @@
         }
 
         header {
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            background: rgba(44, 62, 80, 0.8); /* Increased transparency */
             padding: 60px 20px;
             text-align: center;
             border-radius: 15px;
             margin-bottom: 40px;
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
             border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
         }
 
         h1 {
@@ -49,18 +118,19 @@
         }
 
         .section {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(20, 25, 45, 0.7); /* More transparent to see BG */
             padding: 30px;
             margin-bottom: 30px;
             border-radius: 12px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px); /* Heavier blur for glassmorphism */
+            border: 1px solid rgba(52, 152, 219, 0.15); /* Slight blue tint border */
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .section:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 35px rgba(52, 152, 219, 0.2);
+            border-color: rgba(52, 152, 219, 0.4);
         }
 
         h2 {
@@ -79,7 +149,7 @@
         }
 
         .info-item {
-            background: rgba(52, 152, 219, 0.1);
+            background: rgba(52, 152, 219, 0.05);
             padding: 15px;
             border-radius: 8px;
             border-left: 4px solid #3498db;
@@ -114,7 +184,7 @@
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
-            background: rgba(255, 255, 255, 0.03);
+            background: rgba(0, 0, 0, 0.2);
             border-radius: 8px;
             overflow: hidden;
         }
@@ -122,12 +192,12 @@
         th, td {
             padding: 15px;
             text-align: left;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
 
         th {
-            background: rgba(52, 152, 219, 0.2);
-            color: #3498db;
+            background: rgba(52, 152, 219, 0.3);
+            color: #e0e6ed;
             font-weight: bold;
             text-transform: uppercase;
             font-size: 0.9em;
@@ -147,6 +217,7 @@
         a:hover {
             color: #5dade2;
             text-decoration: underline;
+            text-shadow: 0 0 8px rgba(52, 152, 219, 0.6);
         }
 
         .grade-table td:first-child {
@@ -157,6 +228,7 @@
         .special-section {
             background: linear-gradient(135deg, rgba(231, 76, 60, 0.1) 0%, rgba(192, 57, 43, 0.1) 100%);
             border: 1px solid rgba(231, 76, 60, 0.3);
+            backdrop-filter: blur(10px);
         }
 
         .special-section h2 {
@@ -190,6 +262,13 @@
     </style>
 </head>
 <body>
+    <div class="bg-container">
+        <div class="bg-image bg-1" id="bg1"></div>
+        <div class="bg-image bg-2" id="bg2"></div>
+        <div class="bg-image bg-3" id="bg3"></div>
+    </div>
+    <div class="bg-overlay"></div>
+
     <div class="container">
         <header>
             <h1>WF101/WF102</h1>
@@ -413,10 +492,51 @@
             </table>
         </div>
     </div>
+
+    <script>
+        // Background Scroll Transition Script
+        window.addEventListener('scroll', () => {
+            const bg1 = document.getElementById('bg1');
+            const bg2 = document.getElementById('bg2');
+            const bg3 = document.getElementById('bg3');
+
+            // Calculate how far down the user has scrolled as a percentage (0 to 1)
+            const scrollTop = window.scrollY;
+            const docHeight = document.body.scrollHeight - window.innerHeight;
+            const scrollPercent = scrollTop / docHeight;
+
+            // Logic to fade images based on scroll percentage
+            // 0% - 33%: Show Image 1
+            // 33% - 66%: Transition to Image 2
+            // 66% - 100%: Transition to Image 3
+
+            // Image 1 is base layer, always "opacity: 1" in CSS logic if we used z-index stacking,
+            // but here we will manipulate opacity directly for crossfading.
+            
+            // Simpler Logic:
+            // Zone 1 (Top): Img 1 visible, others hidden.
+            // Zone 2 (Middle): Img 2 fades in over Img 1.
+            // Zone 3 (Bottom): Img 3 fades in over Img 2.
+
+            // Reset opacities based on thresholds
+            if (scrollPercent < 0.33) {
+                // Zone 1: Mostly Img 1
+                bg1.style.opacity = 1;
+                bg2.style.opacity = 0;
+                bg3.style.opacity = 0;
+            } else if (scrollPercent >= 0.33 && scrollPercent < 0.66) {
+                // Zone 2: Img 2 visible
+                bg1.style.opacity = 0; // Fade out 1 (optional, or keep it behind)
+                bg2.style.opacity = 1;
+                bg3.style.opacity = 0;
+            } else {
+                // Zone 3: Img 3 visible
+                bg1.style.opacity = 0;
+                bg2.style.opacity = 0;
+                bg3.style.opacity = 1;
+            }
+        });
+    </script>
 </body>
-
 </html>
-
-
-
 
