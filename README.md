@@ -33,7 +33,7 @@ This course will cover a brief history of Warframe and it genre, Fundamental Mec
 ## Tentative Schedule
 | Week  |   Lecture   |  Video   | Additional Material |
 | ----- | --------- | -------- | -------- |
-| 1  | [History of Warframe and it developer](https://www.canva.com/design/DAGw_Yst7wo/qWLP0Vn1g-TO97gTeLimuQ/view?utm_content=DAGw_Yst7wo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h51b2d3c969)  | [Video]() ||
+| 1  | [History of Warframe and its Developer](https://www.canva.com/design/DAGw_Yst7wo/qWLP0Vn1g-TO97gTeLimuQ/view?utm_content=DAGw_Yst7wo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h51b2d3c969)  | [Video]() ||
 | 2  | [Welcome to the new apartment - Orbiter]()                               | [Video]() ||
 | 3  | [Player Progression]()                                | [Video]() ||
 | 4  | [Basic Weapon Modding System (Elemental Reaction)]()                                | [Video]() || 
