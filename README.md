@@ -43,7 +43,7 @@ This course will cover a brief history of Warframe and it genre, Fundamental Mec
 | 8  | [Trading in Warframe (feat. Warframe Market)]()                                | [Video] ||
 | 9  | [Hunter and Gathering Resources]()                                  | [Video] ||
 | 10 | [The Brief Story of Warframe (Spoiler Alert!!)]()                                 | [Video] ||
-| 11 | [Deep Dive of Adversary Weapon]()                                  | [Video]  ||
+| 11 | [Focus School & Amp]()                                  | [Video]  ||
 | 12 | [Researching topic by community resources]()                                | [Video]  ||
 | 13 | [Preparation for Endgame]()                                 | [Video] ||
 | 14 | [A Critique on Warframe]()                              | [Video] ||
